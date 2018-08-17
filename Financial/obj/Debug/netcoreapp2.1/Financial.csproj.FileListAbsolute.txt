@@ -1,0 +1,17 @@
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.deps.json
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.runtimeconfig.json
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.runtimeconfig.dev.json
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.dll
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.pdb
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.Data.dll
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.Lib.dll
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.Data.pdb
+D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.Lib.pdb
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.csprojAssemblyReference.cache
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.csproj.CoreCompileInputs.cache
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.AssemblyInfoInputs.cache
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.AssemblyInfo.cs
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.csproj.CopyComplete
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.dll
+D:\Project\Financial\Financial\obj\Debug\netcoreapp2.1\Financial.pdb

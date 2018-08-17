@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Financial.Lib</id>
+    <version>1.0.0</version>
+    <authors>Financial.Lib</authors>
+    <owners>Financial.Lib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Financial.Data" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.6" exclude="Build,Analyzers" />
+        <dependency id="Quartz" version="3.0.6" exclude="Build,Analyzers" />
+        <dependency id="Unity" version="5.8.6" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Financial.Data" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.6" exclude="Build,Analyzers" />
+        <dependency id="Quartz" version="3.0.6" exclude="Build,Analyzers" />
+        <dependency id="Unity" version="5.8.6" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Financial.Data" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.6" exclude="Build,Analyzers" />
+        <dependency id="Quartz" version="3.0.6" exclude="Build,Analyzers" />
+        <dependency id="Unity" version="5.8.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Project\Financial\Financial.Lib\bin\Debug\net461\Financial.Lib.dll" target="lib\net461\Financial.Lib.dll" />
+    <file src="D:\Project\Financial\Financial.Lib\bin\Debug\netcoreapp2.1\Financial.Lib.dll" target="lib\netcoreapp2.1\Financial.Lib.dll" />
+    <file src="D:\Project\Financial\Financial.Lib\bin\Debug\netstandard2.0\Financial.Lib.dll" target="lib\netstandard2.0\Financial.Lib.dll" />
+  </files>
+</package>

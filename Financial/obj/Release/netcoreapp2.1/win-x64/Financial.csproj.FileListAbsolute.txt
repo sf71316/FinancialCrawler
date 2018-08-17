@@ -1,0 +1,17 @@
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\appsettings.json
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.deps.json
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.runtimeconfig.json
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.runtimeconfig.dev.json
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.dll
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.pdb
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.Data.dll
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.Lib.dll
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.Data.pdb
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.Lib.pdb
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.csprojAssemblyReference.cache
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.csproj.CoreCompileInputs.cache
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.AssemblyInfoInputs.cache
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.AssemblyInfo.cs
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.csproj.CopyComplete
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.dll
+D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.pdb

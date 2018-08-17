@@ -1,0 +1,9 @@
+D:\Project\Financial\Financial.Data\bin\Debug\netstandard2.0\Financial.Data.deps.json
+D:\Project\Financial\Financial.Data\bin\Debug\netstandard2.0\Financial.Data.dll
+D:\Project\Financial\Financial.Data\bin\Debug\netstandard2.0\Financial.Data.pdb
+D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.csprojAssemblyReference.cache
+D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.csproj.CoreCompileInputs.cache
+D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.AssemblyInfoInputs.cache
+D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.AssemblyInfo.cs
+D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.dll
+D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.pdb

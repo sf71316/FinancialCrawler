@@ -1,0 +1,12 @@
+D:\Project\Financial\Financial.Lib\bin\Release\netstandard2.0\Financial.Lib.deps.json
+D:\Project\Financial\Financial.Lib\bin\Release\netstandard2.0\Financial.Lib.dll
+D:\Project\Financial\Financial.Lib\bin\Release\netstandard2.0\Financial.Lib.pdb
+D:\Project\Financial\Financial.Lib\bin\Release\netstandard2.0\Financial.Data.dll
+D:\Project\Financial\Financial.Lib\bin\Release\netstandard2.0\Financial.Data.pdb
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.csprojAssemblyReference.cache
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.csproj.CoreCompileInputs.cache
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.AssemblyInfoInputs.cache
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.AssemblyInfo.cs
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.csproj.CopyComplete
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.dll
+D:\Project\Financial\Financial.Lib\obj\Release\netstandard2.0\Financial.Lib.pdb

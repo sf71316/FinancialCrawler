@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Financial</id>
+    <version>1.0.0</version>
+    <authors>Financial</authors>
+    <owners>Financial</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Financial.Data" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Financial.Lib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Design" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Quartz" version="3.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.runtimeconfig.json" target="lib\netcoreapp2.1\Financial.runtimeconfig.json" />
+    <file src="D:\Project\Financial\Financial\bin\Debug\netcoreapp2.1\Financial.dll" target="lib\netcoreapp2.1\Financial.dll" />
+  </files>
+</package>
