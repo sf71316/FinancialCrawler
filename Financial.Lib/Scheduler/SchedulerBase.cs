@@ -1,4 +1,5 @@
-﻿using Financial.Data.Models;
+﻿using Financial.Data.interfaces;
+using Financial.Data.Models;
 using Financial.Lib.Crawler;
 using Financial.Lib.Crawler.Currency;
 using Financial.Lib.Interfaces;
@@ -26,6 +27,7 @@ namespace Financial.Lib.Scheduler
             CurrencyData data = new CurrencyData(configuration.GetConnectionString("DefaultConnection"));
 
             _container = new UnityContainer();
+            _container.RegisterType<ICurrencyData, CurrencyData>("DbContainer");
             _container.RegisterType<ICrawler, CurrencyInfoMaker>("maker",
                 new InjectionProperty("DbContainer", data)
                 );
@@ -35,7 +37,7 @@ namespace Financial.Lib.Scheduler
             _container.RegisterType<ICrawler, CurrencyCrawlerAPI2>("API2",
                 new InjectionProperty("DbContainer", data)
                 );
-            _container.RegisterType<ICrawler, CurrencyCrawlerAPI2>("API3",
+            _container.RegisterType<ICrawler, CurrencyCrawlerAPI3>("API3",
                 new InjectionProperty("DbContainer", data)
                 );
             #endregion
@@ -45,6 +47,15 @@ namespace Financial.Lib.Scheduler
             return TriggerBuilder.Create()
                .WithIdentity("ExchangeRate", "Currency")
                .WithCronSchedule("0 0/30 * * * ?")
+               .StartNow()
+               .WithPriority(1)
+               .Build();
+        }
+        public static ITrigger CreateAPI3Trigger()
+        {
+            return TriggerBuilder.Create()
+               .WithIdentity("HistoricalExchangeRate", "Currency")
+               .WithCronSchedule("0/15 * * * * ?")
                .StartNow()
                .WithPriority(1)
                .Build();

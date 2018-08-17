@@ -31,7 +31,11 @@ namespace Financial
             IJobDetail job = JobBuilder.Create<ImmediateExchangeRateJob>()
                 .WithIdentity("job1", "group1")
                 .Build();
-            scheduler.ScheduleJob(job, SchedulerBase.CreateAPI2Trigger());
+            IJobDetail job2 = JobBuilder.Create<HistoricalExchangeRateJob>()
+              .WithIdentity("job2", "group2")
+              .Build();
+            //  scheduler.ScheduleJob(job, SchedulerBase.CreateAPI2Trigger());
+            scheduler.ScheduleJob(job2, SchedulerBase.CreateAPI3Trigger());
             scheduler.Start();
             #endregion
 

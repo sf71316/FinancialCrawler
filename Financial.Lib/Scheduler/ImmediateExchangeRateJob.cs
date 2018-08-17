@@ -32,7 +32,7 @@ namespace Financial.Lib.Scheduler
 
         private void _api_Notify(object sender, NotifyArg e)
         {
-            Console.WriteLine($"[{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}] {e.Message}");
+            Console.WriteLine($"[{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.hhh")}] {e.Message}");
         }
     }
 }

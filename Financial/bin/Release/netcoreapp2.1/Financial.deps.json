@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "514b97f0616027463d7d8a0da9a924c07481cd95"
+    "signature": "1e2cbada6f588f3cf6a8d81db1314a2eb7f1d26f"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,6 @@
           "Microsoft.EntityFrameworkCore.Design": "2.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Net.Compilers": "2.9.0",
           "Quartz": "3.0.6"
         },
         "runtime": {
@@ -293,7 +292,7 @@
           }
         }
       },
-      "Microsoft.Net.Compilers/2.9.0": {},
+      "Microsoft.Net.Compilers/2.8.2": {},
       "Microsoft.Win32.Registry/4.5.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
@@ -1008,7 +1007,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Net.Compilers": "2.9.0"
+          "Microsoft.Net.Compilers": "2.8.2"
         },
         "runtime": {
           "Financial.Data.dll": {}
@@ -1018,7 +1017,6 @@
         "dependencies": {
           "Financial.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.6",
-          "Microsoft.Net.Compilers": "2.9.0",
           "Quartz": "3.0.6",
           "Unity": "5.8.6"
         },
@@ -1216,12 +1214,12 @@
       "path": "microsoft.extensions.primitives/2.1.1",
       "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
     },
-    "Microsoft.Net.Compilers/2.9.0": {
+    "Microsoft.Net.Compilers/2.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HwYvgpsc2RDxOXEC3i1r/P9l6m8MHpO0HuIFVa7fEGiGKc5mVzor2fOyZHdpzS4Y5d9mZLRfjeTut24XpFks2g==",
-      "path": "microsoft.net.compilers/2.9.0",
-      "hashPath": "microsoft.net.compilers.2.9.0.nupkg.sha512"
+      "sha512": "sha512-eCu794qSyzkJuh7Mx9P+ozO2r+wPt7xrwgDhu4Ec/cOeAsrgvcPvLgS8I8fVOefmbhRj1+a5HGU5arICQud1gg==",
+      "path": "microsoft.net.compilers/2.8.2",
+      "hashPath": "microsoft.net.compilers.2.8.2.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.5.0": {
       "type": "package",

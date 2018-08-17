@@ -12,6 +12,7 @@ namespace Financial.Data.interfaces
         DbContext DbContext { get; }
         IQueryable<CurrencyRelationMap> GetCurrencyMap();
         bool IsNewCurrencyExchange(Guid SourceCEGuid, Guid TargetCEGuid, DateTime UpdateDate);
+        bool HasCurrencyExchangeHistorical(Guid SourceCEGuid, Guid TargetCEGuid, DateTime StartDate, DateTime EndDate);
 
     }
 

@@ -50,6 +50,15 @@ namespace Financial.Data.Models
                     select c).AsNoTracking().Count() == 0;
             //return result.Count() == 0;
         }
+        public bool HasCurrencyExchangeHistorical(Guid SourceCEGuid, Guid TargetCEGuid, DateTime StartDate, DateTime EndDate)
+        {
+
+            return (from c in this._Context.CurrencyHistory
+                    where c.SourceCurrency == SourceCEGuid && c.TargetCurrency == TargetCEGuid
+                    && (c.UpdateDate >= StartDate && c.UpdateDate < EndDate)
+                    select c).AsNoTracking().Count() == 0;
+            //return result.Count() == 0;
+        }
     }
 
 

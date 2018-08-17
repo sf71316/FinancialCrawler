@@ -318,10 +318,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.Net.Compilers/2.9.0": {
+      "Microsoft.Net.Compilers/2.8.2": {
         "type": "package",
         "build": {
-          "build/Microsoft.Net.Compilers.props": {}
+          "build/_._": {}
         }
       },
       "Microsoft.NETCore.App/2.1.2": {
@@ -1983,10 +1983,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.Net.Compilers/2.9.0": {
+      "Microsoft.Net.Compilers/2.8.2": {
         "type": "package",
         "build": {
-          "build/Microsoft.Net.Compilers.props": {}
+          "build/_._": {}
         }
       },
       "Microsoft.NETCore.App/2.1.2": {
@@ -3897,15 +3897,15 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
-    "Microsoft.Net.Compilers/2.9.0": {
-      "sha512": "HwYvgpsc2RDxOXEC3i1r/P9l6m8MHpO0HuIFVa7fEGiGKc5mVzor2fOyZHdpzS4Y5d9mZLRfjeTut24XpFks2g==",
+    "Microsoft.Net.Compilers/2.8.2": {
+      "sha512": "eCu794qSyzkJuh7Mx9P+ozO2r+wPt7xrwgDhu4Ec/cOeAsrgvcPvLgS8I8fVOefmbhRj1+a5HGU5arICQud1gg==",
       "type": "package",
-      "path": "microsoft.net.compilers/2.9.0",
+      "path": "microsoft.net.compilers/2.8.2",
       "files": [
         ".signature.p7s",
         "ThirdPartyNotices.rtf",
         "build/Microsoft.Net.Compilers.props",
-        "microsoft.net.compilers.2.9.0.nupkg.sha512",
+        "microsoft.net.compilers.2.8.2.nupkg.sha512",
         "microsoft.net.compilers.nuspec",
         "tools/Microsoft.Build.Tasks.CodeAnalysis.dll",
         "tools/Microsoft.CSharp.Core.targets",
@@ -3918,28 +3918,25 @@
         "tools/Microsoft.DiaSymReader.Native.x86.dll",
         "tools/Microsoft.Managed.Core.targets",
         "tools/Microsoft.VisualBasic.Core.targets",
-        "tools/Microsoft.Win32.Primitives.dll",
         "tools/System.AppContext.dll",
         "tools/System.Collections.Immutable.dll",
         "tools/System.Console.dll",
-        "tools/System.Diagnostics.DiagnosticSource.dll",
         "tools/System.Diagnostics.FileVersionInfo.dll",
         "tools/System.Diagnostics.StackTrace.dll",
-        "tools/System.Globalization.Calendars.dll",
-        "tools/System.IO.Compression.ZipFile.dll",
         "tools/System.IO.Compression.dll",
         "tools/System.IO.FileSystem.Primitives.dll",
         "tools/System.IO.FileSystem.dll",
-        "tools/System.Net.Http.dll",
-        "tools/System.Net.Sockets.dll",
+        "tools/System.IO.Pipes.AccessControl.dll",
+        "tools/System.IO.Pipes.dll",
         "tools/System.Reflection.Metadata.dll",
-        "tools/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/System.Security.AccessControl.dll",
+        "tools/System.Security.Claims.dll",
         "tools/System.Security.Cryptography.Algorithms.dll",
         "tools/System.Security.Cryptography.Encoding.dll",
         "tools/System.Security.Cryptography.Primitives.dll",
         "tools/System.Security.Cryptography.X509Certificates.dll",
+        "tools/System.Security.Principal.Windows.dll",
         "tools/System.Text.Encoding.CodePages.dll",
-        "tools/System.Threading.Tasks.Extensions.dll",
         "tools/System.ValueTuple.dll",
         "tools/System.Xml.ReaderWriter.dll",
         "tools/System.Xml.XPath.XDocument.dll",
@@ -3947,93 +3944,15 @@
         "tools/System.Xml.XmlDocument.dll",
         "tools/VBCSCompiler.exe",
         "tools/VBCSCompiler.exe.config",
-        "tools/cs/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/cs/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/cs/Microsoft.CodeAnalysis.resources.dll",
         "tools/csc.exe",
         "tools/csc.exe.config",
         "tools/csc.rsp",
         "tools/csi.exe",
         "tools/csi.exe.config",
         "tools/csi.rsp",
-        "tools/de/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/de/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/de/Microsoft.CodeAnalysis.resources.dll",
-        "tools/es/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/es/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/es/Microsoft.CodeAnalysis.resources.dll",
-        "tools/fr/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/fr/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/fr/Microsoft.CodeAnalysis.resources.dll",
-        "tools/it/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/it/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/it/Microsoft.CodeAnalysis.resources.dll",
-        "tools/ja/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/ja/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/ja/Microsoft.CodeAnalysis.resources.dll",
-        "tools/ko/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/ko/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/ko/Microsoft.CodeAnalysis.resources.dll",
-        "tools/pl/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/pl/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/pl/Microsoft.CodeAnalysis.resources.dll",
-        "tools/pt-BR/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/pt-BR/Microsoft.CodeAnalysis.resources.dll",
-        "tools/ru/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/ru/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/ru/Microsoft.CodeAnalysis.resources.dll",
-        "tools/tr/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/tr/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/tr/Microsoft.CodeAnalysis.resources.dll",
         "tools/vbc.exe",
         "tools/vbc.exe.config",
-        "tools/vbc.rsp",
-        "tools/zh-Hans/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
-        "tools/zh-Hant/Microsoft.Build.Tasks.CodeAnalysis.resources.dll",
-        "tools/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
-        "tools/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "tools/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll",
-        "tools/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
-        "tools/zh-Hant/Microsoft.CodeAnalysis.resources.dll"
+        "tools/vbc.rsp"
       ]
     },
     "Microsoft.NETCore.App/2.1.2": {
@@ -8342,7 +8261,6 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.Extensions.Configuration.Json >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.2",
-      "Microsoft.Net.Compilers >= 2.9.0",
       "Quartz >= 3.0.6"
     ]
   },
@@ -8410,12 +8328,6 @@
             "target": "Package",
             "version": "[2.1.2, )",
             "autoReferenced": true
-          },
-          "Microsoft.Net.Compilers": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.9.0, )"
           },
           "Quartz": {
             "target": "Package",

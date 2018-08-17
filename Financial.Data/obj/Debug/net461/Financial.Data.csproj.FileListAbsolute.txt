@@ -130,6 +130,7 @@ D:\Project\Financial\Financial.Data\bin\Debug\net461\System.Xml.XmlDocument.dll
 D:\Project\Financial\Financial.Data\bin\Debug\net461\System.Xml.XmlSerializer.dll
 D:\Project\Financial\Financial.Data\bin\Debug\net461\System.Xml.XPath.dll
 D:\Project\Financial\Financial.Data\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.csprojAssemblyReference.cache
 D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.dll.config
 D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.csproj.CoreCompileInputs.cache
 D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.AssemblyInfoInputs.cache
@@ -137,4 +138,3 @@ D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.AssemblyInfo
 D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.csproj.CopyComplete
 D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.dll
 D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.pdb
-D:\Project\Financial\Financial.Data\obj\Debug\net461\Financial.Data.csprojAssemblyReference.cache

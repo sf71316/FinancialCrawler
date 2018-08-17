@@ -15,3 +15,6 @@ D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.Assem
 D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.csproj.CopyComplete
 D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.dll
 D:\Project\Financial\Financial\obj\Release\netcoreapp2.1\win-x64\Financial.pdb
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\hostpolicy.dll
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\hostfxr.dll
+D:\Project\Financial\Financial\bin\Release\netcoreapp2.1\win-x64\Financial.exe
