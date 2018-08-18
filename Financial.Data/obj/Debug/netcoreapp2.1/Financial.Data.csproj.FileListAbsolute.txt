@@ -3,7 +3,6 @@ D:\Project\Financial\Financial.Data\bin\Debug\netcoreapp2.1\Financial.Data.runti
 D:\Project\Financial\Financial.Data\bin\Debug\netcoreapp2.1\Financial.Data.runtimeconfig.dev.json
 D:\Project\Financial\Financial.Data\bin\Debug\netcoreapp2.1\Financial.Data.dll
 D:\Project\Financial\Financial.Data\bin\Debug\netcoreapp2.1\Financial.Data.pdb
-D:\Project\Financial\Financial.Data\obj\Debug\netcoreapp2.1\Financial.Data.csprojAssemblyReference.cache
 D:\Project\Financial\Financial.Data\obj\Debug\netcoreapp2.1\Financial.Data.csproj.CoreCompileInputs.cache
 D:\Project\Financial\Financial.Data\obj\Debug\netcoreapp2.1\Financial.Data.AssemblyInfoInputs.cache
 D:\Project\Financial\Financial.Data\obj\Debug\netcoreapp2.1\Financial.Data.AssemblyInfo.cs

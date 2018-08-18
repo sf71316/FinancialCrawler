@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "514b97f0616027463d7d8a0da9a924c07481cd95"
+    "signature": "8f8b6e7b242c659abbb9f83ad6ecd83975954af3"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,6 @@
         "dependencies": {
           "Financial.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.6",
-          "Microsoft.Net.Compilers": "2.9.0",
           "Quartz": "3.0.6",
           "Unity": "5.8.6"
         },
@@ -291,7 +290,6 @@
           }
         }
       },
-      "Microsoft.Net.Compilers/2.9.0": {},
       "Microsoft.Win32.Registry/4.5.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
@@ -1005,8 +1003,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Net.Compilers": "2.9.0"
+          "Microsoft.Extensions.Configuration.Json": "2.1.1"
         },
         "runtime": {
           "Financial.Data.dll": {}
@@ -1201,13 +1198,6 @@
       "sha512": "sha512-Svz25/egj1TsNL4118jyMqkhDiu0l8QYWq2p52P4BBN0GbqwR18ZRIctSP5TTDJy0m0EFC8aB2FOVjGtvEGWSA==",
       "path": "microsoft.extensions.primitives/2.1.1",
       "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
-    },
-    "Microsoft.Net.Compilers/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-HwYvgpsc2RDxOXEC3i1r/P9l6m8MHpO0HuIFVa7fEGiGKc5mVzor2fOyZHdpzS4Y5d9mZLRfjeTut24XpFks2g==",
-      "path": "microsoft.net.compilers/2.9.0",
-      "hashPath": "microsoft.net.compilers.2.9.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.5.0": {
       "type": "package",

@@ -318,12 +318,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.Net.Compilers/2.8.2": {
-        "type": "package",
-        "build": {
-          "build/_._": {}
-        }
-      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -1631,7 +1625,7 @@
       },
       "Financial.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Dapper": "1.50.5",
           "Microsoft.EntityFrameworkCore": "2.1.1",
@@ -1639,8 +1633,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Net.Compilers": "2.8.2"
+          "Microsoft.Extensions.Configuration.Json": "2.1.1"
         },
         "compile": {
           "bin/placeholder/Financial.Data.dll": {}
@@ -1651,7 +1644,7 @@
       },
       "Financial.Lib/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Financial.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.6",
@@ -2057,64 +2050,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
         "microsoft.extensions.primitives.2.1.1.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
-      ]
-    },
-    "Microsoft.Net.Compilers/2.8.2": {
-      "sha512": "eCu794qSyzkJuh7Mx9P+ozO2r+wPt7xrwgDhu4Ec/cOeAsrgvcPvLgS8I8fVOefmbhRj1+a5HGU5arICQud1gg==",
-      "type": "package",
-      "path": "microsoft.net.compilers/2.8.2",
-      "files": [
-        ".signature.p7s",
-        "ThirdPartyNotices.rtf",
-        "build/Microsoft.Net.Compilers.props",
-        "microsoft.net.compilers.2.8.2.nupkg.sha512",
-        "microsoft.net.compilers.nuspec",
-        "tools/Microsoft.Build.Tasks.CodeAnalysis.dll",
-        "tools/Microsoft.CSharp.Core.targets",
-        "tools/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
-        "tools/Microsoft.CodeAnalysis.CSharp.dll",
-        "tools/Microsoft.CodeAnalysis.Scripting.dll",
-        "tools/Microsoft.CodeAnalysis.VisualBasic.dll",
-        "tools/Microsoft.CodeAnalysis.dll",
-        "tools/Microsoft.DiaSymReader.Native.amd64.dll",
-        "tools/Microsoft.DiaSymReader.Native.x86.dll",
-        "tools/Microsoft.Managed.Core.targets",
-        "tools/Microsoft.VisualBasic.Core.targets",
-        "tools/System.AppContext.dll",
-        "tools/System.Collections.Immutable.dll",
-        "tools/System.Console.dll",
-        "tools/System.Diagnostics.FileVersionInfo.dll",
-        "tools/System.Diagnostics.StackTrace.dll",
-        "tools/System.IO.Compression.dll",
-        "tools/System.IO.FileSystem.Primitives.dll",
-        "tools/System.IO.FileSystem.dll",
-        "tools/System.IO.Pipes.AccessControl.dll",
-        "tools/System.IO.Pipes.dll",
-        "tools/System.Reflection.Metadata.dll",
-        "tools/System.Security.AccessControl.dll",
-        "tools/System.Security.Claims.dll",
-        "tools/System.Security.Cryptography.Algorithms.dll",
-        "tools/System.Security.Cryptography.Encoding.dll",
-        "tools/System.Security.Cryptography.Primitives.dll",
-        "tools/System.Security.Cryptography.X509Certificates.dll",
-        "tools/System.Security.Principal.Windows.dll",
-        "tools/System.Text.Encoding.CodePages.dll",
-        "tools/System.ValueTuple.dll",
-        "tools/System.Xml.ReaderWriter.dll",
-        "tools/System.Xml.XPath.XDocument.dll",
-        "tools/System.Xml.XPath.dll",
-        "tools/System.Xml.XmlDocument.dll",
-        "tools/VBCSCompiler.exe",
-        "tools/VBCSCompiler.exe.config",
-        "tools/csc.exe",
-        "tools/csc.exe.config",
-        "tools/csc.rsp",
-        "tools/csi.exe",
-        "tools/csi.exe.config",
-        "tools/csi.rsp",
-        "tools/vbc.exe",
-        "tools/vbc.exe.config",
-        "tools/vbc.rsp"
       ]
     },
     "Microsoft.NETCore.App/2.1.0": {

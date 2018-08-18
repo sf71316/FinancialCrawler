@@ -1,0 +1,17 @@
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.API.deps.json
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.API.runtimeconfig.json
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.API.runtimeconfig.dev.json
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.API.dll
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.API.pdb
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.Data.dll
+D:\Project\Financial\Financial.API\bin\Debug\netcoreapp2.1\Financial.Data.pdb
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.csprojAssemblyReference.cache
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.csproj.CoreCompileInputs.cache
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.RazorAssemblyInfo.cache
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.RazorAssemblyInfo.cs
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.AssemblyInfoInputs.cache
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.AssemblyInfo.cs
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.RazorTargetAssemblyInfo.cache
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.csproj.CopyComplete
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.dll
+D:\Project\Financial\Financial.API\obj\Debug\netcoreapp2.1\Financial.API.pdb

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cc061a9ad3415eb35845aeb60fb489dc6ca725f5"
+    "signature": "d2a12977f572451f16864bd2a7d30ffb4fb76837"
   },
   "compilationOptions": {},
   "targets": {
@@ -16,7 +16,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Net.Compilers": "2.8.2",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -291,7 +290,6 @@
           }
         }
       },
-      "Microsoft.Net.Compilers/2.8.2": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.Registry/4.5.0": {
@@ -880,13 +878,6 @@
       "sha512": "sha512-Svz25/egj1TsNL4118jyMqkhDiu0l8QYWq2p52P4BBN0GbqwR18ZRIctSP5TTDJy0m0EFC8aB2FOVjGtvEGWSA==",
       "path": "microsoft.extensions.primitives/2.1.1",
       "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
-    },
-    "Microsoft.Net.Compilers/2.8.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eCu794qSyzkJuh7Mx9P+ozO2r+wPt7xrwgDhu4Ec/cOeAsrgvcPvLgS8I8fVOefmbhRj1+a5HGU5arICQud1gg==",
-      "path": "microsoft.net.compilers/2.8.2",
-      "hashPath": "microsoft.net.compilers.2.8.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

@@ -19,13 +19,18 @@ namespace Financial.Lib.Scheduler
         protected IUnityContainer _container;
         public SchedulerBase()
         {
+            
             #region Dependency Injection
+#if NET40
+#else
             var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json");
+              .SetBasePath(Directory.GetCurrentDirectory())
+              .AddJsonFile("appsettings.json");
             IConfigurationRoot configuration = builder.Build();
             CurrencyData data = new CurrencyData(configuration.GetConnectionString("DefaultConnection"));
 
+
+#endif
             _container = new UnityContainer();
             _container.RegisterType<ICurrencyData, CurrencyData>("DbContainer");
             _container.RegisterType<ICrawler, CurrencyInfoMaker>("maker",

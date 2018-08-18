@@ -93,7 +93,7 @@ namespace Financial.Lib.Crawler.Currency
             }
         }
 
-        protected override async void Crawl()
+        protected override  void Crawl()
         {
             using (HttpClient client = new HttpClient())
             {

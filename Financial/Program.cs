@@ -19,6 +19,7 @@ namespace Financial
 {
     class Program
     {
+        static bool _ShowMenu = true;
         static void Main(string[] args)
         {
             IScheduler scheduler = null;
@@ -34,19 +35,69 @@ namespace Financial
             IJobDetail job2 = JobBuilder.Create<HistoricalExchangeRateJob>()
               .WithIdentity("job2", "group2")
               .Build();
-            //  scheduler.ScheduleJob(job, SchedulerBase.CreateAPI2Trigger());
-            scheduler.ScheduleJob(job2, SchedulerBase.CreateAPI3Trigger());
-            scheduler.Start();
+            //scheduler.ScheduleJob(job, SchedulerBase.CreateAPI2Trigger());
+            //scheduler.ScheduleJob(job2, SchedulerBase.CreateAPI3Trigger());
+            //scheduler.Start();
             #endregion
+            var _Isrun = true;
 
-            while (true)
+            while (_Isrun)
             {
-                var cmd = Console.ReadLine();
-                if (cmd == "exit")
+                var cmd = SelectMenu();
+                switch (cmd)
                 {
-                    scheduler.Shutdown().Wait();
-                    break;
+                    case 1:
+                        scheduler.ScheduleJob(job, SchedulerBase.CreateAPI2Trigger());
+                        scheduler.Start();
+                        Console.Clear();
+                        Console.WriteLine("Immediate exchange rate will start....");
+                        _ShowMenu = false;
+                        break;
+                    case 2:
+                        scheduler.ScheduleJob(job, SchedulerBase.CreateAPI3Trigger());
+                        scheduler.Start();
+                        Console.Clear();
+                        Console.WriteLine("Historical exchange rate will start....");
+                        _ShowMenu = false;
+                        break;
+                    case 3:
+                        scheduler.Shutdown().Wait();
+                        Console.WriteLine("Task is shutdown ");
+                        Console.WriteLine("please press any key to continue....");
+                        Console.ReadLine();
+                        _ShowMenu = true;
+                        break;
+                    case 4:
+                        _ShowMenu = true;
+                        break;
+                    case 5:
+                        _Isrun = false;
+                        break;
+                    default:
+                        break;
                 }
+            }
+        }
+        static int SelectMenu()
+        {
+            if (_ShowMenu)
+            {
+                Console.Clear();
+                Console.WriteLine($"1. Start immediate exchange rate process");
+                Console.WriteLine($"2. Start historical exchange rate process");
+                Console.WriteLine($"3. Stop current task");
+                Console.WriteLine($"4. Show menu");
+                Console.WriteLine($"5. Quit");
+            }
+            int _cmd = 0;
+            if (int.TryParse(Console.ReadLine(), out _cmd))
+            {
+                return _cmd;
+            }
+            else
+            {
+                Console.WriteLine("Error command please try again.... ");
+                return SelectMenu();
             }
         }
     }
