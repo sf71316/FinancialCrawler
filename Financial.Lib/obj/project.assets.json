@@ -5688,11 +5688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Financial\\Financial.Lib\\Financial.Lib.csproj",
+      "projectUniqueName": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Lib\\Financial.Lib.csproj",
       "projectName": "Financial.Lib",
-      "projectPath": "D:\\Project\\Financial\\Financial.Lib\\Financial.Lib.csproj",
+      "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Lib\\Financial.Lib.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Financial\\Financial.Lib\\obj\\",
+      "outputPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5711,8 +5711,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj": {
-              "projectPath": "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj"
+            "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj": {
+              "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj"
             }
           }
         }

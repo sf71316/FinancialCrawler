@@ -3373,11 +3373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj",
+      "projectUniqueName": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj",
       "projectName": "Financial.Data",
-      "projectPath": "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj",
+      "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Financial\\Financial.Data\\obj\\",
+      "outputPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

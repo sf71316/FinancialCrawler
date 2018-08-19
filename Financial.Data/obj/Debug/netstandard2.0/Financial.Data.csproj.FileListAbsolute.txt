@@ -7,3 +7,12 @@ D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.Asse
 D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.dll
 D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.pdb
 D:\Project\Financial\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.csprojAssemblyReference.cache
+E:\Project\Financial\FinancialCrawler\Financial.Data\bin\Debug\netstandard2.0\Financial.Data.deps.json
+E:\Project\Financial\FinancialCrawler\Financial.Data\bin\Debug\netstandard2.0\Financial.Data.dll
+E:\Project\Financial\FinancialCrawler\Financial.Data\bin\Debug\netstandard2.0\Financial.Data.pdb
+E:\Project\Financial\FinancialCrawler\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.csproj.CoreCompileInputs.cache
+E:\Project\Financial\FinancialCrawler\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.AssemblyInfoInputs.cache
+E:\Project\Financial\FinancialCrawler\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.AssemblyInfo.cs
+E:\Project\Financial\FinancialCrawler\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.dll
+E:\Project\Financial\FinancialCrawler\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.pdb
+E:\Project\Financial\FinancialCrawler\Financial.Data\obj\Debug\netstandard2.0\Financial.Data.csprojAssemblyReference.cache

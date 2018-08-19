@@ -10,3 +10,15 @@ D:\Project\Financial\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.Assemb
 D:\Project\Financial\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.csproj.CopyComplete
 D:\Project\Financial\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.dll
 D:\Project\Financial\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.pdb
+E:\Project\Financial\FinancialCrawler\Financial.Lib\bin\Debug\netstandard2.0\Financial.Lib.deps.json
+E:\Project\Financial\FinancialCrawler\Financial.Lib\bin\Debug\netstandard2.0\Financial.Lib.dll
+E:\Project\Financial\FinancialCrawler\Financial.Lib\bin\Debug\netstandard2.0\Financial.Lib.pdb
+E:\Project\Financial\FinancialCrawler\Financial.Lib\bin\Debug\netstandard2.0\Financial.Data.dll
+E:\Project\Financial\FinancialCrawler\Financial.Lib\bin\Debug\netstandard2.0\Financial.Data.pdb
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.csprojAssemblyReference.cache
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.csproj.CoreCompileInputs.cache
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.AssemblyInfoInputs.cache
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.AssemblyInfo.cs
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.csproj.CopyComplete
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.dll
+E:\Project\Financial\FinancialCrawler\Financial.Lib\obj\Debug\netstandard2.0\Financial.Lib.pdb

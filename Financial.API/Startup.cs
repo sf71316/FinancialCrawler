@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Financial.Data.interfaces;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Unity;
+using Unity.Injection;
 
 namespace Financial.API
 {
@@ -32,8 +34,13 @@ namespace Financial.API
         }
         public void ConfigureContainer(IUnityContainer container)
         {
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json");
+            IConfigurationRoot configuration = builder.Build();
             // Could be used to register more types
-            container.RegisterType<ICurrencyData, CurrencyData>();
+            container.RegisterType<ICurrencyData, CurrencyData>(
+                new InjectionConstructor(configuration.GetConnectionString("DefaultConnection")));
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

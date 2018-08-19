@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Unity;
 using Financial.Data.Models;
+using Financial.Data.Entity;
+using Financial.Data.interfaces;
 
 namespace Financial.API.Controllers
 {
@@ -13,15 +15,16 @@ namespace Financial.API.Controllers
     [ApiController]
     public class CurrencyController : ControllerBase
     {
+        IUnityContainer _container;
         public CurrencyController(IUnityContainer container)
         {
-
+            _container = container;
         }
-
-        public ActionResult<IEnumerable<dynamic>> Get(string Currency)
+        [HttpGet]
+        public ActionResult<IEnumerable<ExchangeRateModel>> Get(string tc, string sc = "TWD")
         {
-
-            return null;
+            var data = _container.Resolve<ICurrencyData>();
+            return data.GetExchangeRates(sc, tc).ToList();
         }
     }
 }

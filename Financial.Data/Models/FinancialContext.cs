@@ -10,12 +10,13 @@ namespace Financial.Data.Models
         public FinancialContext(DbContextOptions<FinancialContext> options)
             : base(options)
         {
-            
+                
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             
         }
+        
         public virtual DbSet<Currency> Currency { get; set; }
         public virtual DbSet<CurrencyHistory> CurrencyHistory { get; set; }
         public virtual DbSet<CurrencyNameRelation> CurrencyNameRelation { get; set; }

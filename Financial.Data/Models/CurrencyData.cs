@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using Dapper;
+using Financial.Data.Entity;
 
 namespace Financial.Data.Models
 {
@@ -15,6 +16,7 @@ namespace Financial.Data.Models
         {
 
         }
+        
         public DbContext DbContext
         {
 
@@ -39,6 +41,22 @@ namespace Financial.Data.Models
                         UID = c.Uid
                     }).AsNoTracking();
 
+        }
+        public IQueryable<ExchangeRateModel> GetExchangeRates(string SourceCurrencyName, string TargetCurrencyName)
+        {
+            var _TCurrency = (from p in this.GetCurrencyMap()
+                              where p.CurrencyName.Contains(TargetCurrencyName)
+                              select p).FirstOrDefault();
+            var _SCurrency = (from p in this.GetCurrencyMap()
+                              where p.CurrencyName.Contains(SourceCurrencyName)
+                              select p).FirstOrDefault();
+            return from p in this._Context.CurrencyHistory
+                   where p.SourceCurrency == _SCurrency.UID && p.TargetCurrency == _TCurrency.UID
+                   select new ExchangeRateModel
+                   {
+                       ExchangeRate=p.Value,
+                       ExchangeTime=p.UpdateDate
+                   };
         }
 
         public bool IsNewCurrencyExchange(Guid SourceCEGuid, Guid TargetCEGuid, DateTime UpdateDate)

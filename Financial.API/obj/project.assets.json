@@ -12488,11 +12488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Financial\\Financial.API\\Financial.API.csproj",
+      "projectUniqueName": "E:\\Project\\Financial\\FinancialCrawler\\Financial.API\\Financial.API.csproj",
       "projectName": "Financial.API",
-      "projectPath": "D:\\Project\\Financial\\Financial.API\\Financial.API.csproj",
+      "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.API\\Financial.API.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Financial\\Financial.API\\obj\\",
+      "outputPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12511,8 +12511,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj": {
-              "projectPath": "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj"
+            "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj": {
+              "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj"
             }
           }
         }

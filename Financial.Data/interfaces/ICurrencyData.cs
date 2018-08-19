@@ -1,4 +1,5 @@
-﻿using Financial.Data.Models;
+﻿using Financial.Data.Entity;
+using Financial.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace Financial.Data.interfaces
         IQueryable<CurrencyRelationMap> GetCurrencyMap();
         bool IsNewCurrencyExchange(Guid SourceCEGuid, Guid TargetCEGuid, DateTime UpdateDate);
         bool HasCurrencyExchangeHistorical(Guid SourceCEGuid, Guid TargetCEGuid, DateTime StartDate, DateTime EndDate);
-
+        IQueryable<ExchangeRateModel> GetExchangeRates(string SourceCurrencyName, string TargetCurrencyName);
     }
 
 }
