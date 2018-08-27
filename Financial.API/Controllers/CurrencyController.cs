@@ -8,11 +8,13 @@ using Unity;
 using Financial.Data.Models;
 using Financial.Data.Entity;
 using Financial.Data.interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Financial.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CurrencyController : ControllerBase
     {
         IUnityContainer _container;

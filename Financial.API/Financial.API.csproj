@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ActionFilter\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -22,5 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Financial.Data\Financial.Data.csproj" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties Properties_4launchSettings_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
