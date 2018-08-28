@@ -45,10 +45,10 @@ namespace Financial.Data.Models
         public IQueryable<ExchangeRateModel> GetExchangeRates(string SourceCurrencyName, string TargetCurrencyName)
         {
             var _TCurrency = (from p in this.GetCurrencyMap()
-                              where p.CurrencyName.Contains(TargetCurrencyName)
+                              where p.TagName.Contains(TargetCurrencyName)
                               select p).FirstOrDefault();
             var _SCurrency = (from p in this.GetCurrencyMap()
-                              where p.CurrencyName.Contains(SourceCurrencyName)
+                              where p.TagName.Contains(SourceCurrencyName)
                               select p).FirstOrDefault();
             return from p in this._Context.CurrencyHistory
                    where p.SourceCurrency == _SCurrency.UID && p.TargetCurrency == _TCurrency.UID
