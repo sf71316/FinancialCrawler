@@ -6102,11 +6102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\Financial\\FinancialCrawler\\Financial\\Financial.csproj",
+      "projectUniqueName": "D:\\Project\\Financial\\Financial\\Financial.csproj",
       "projectName": "Financial",
-      "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial\\Financial.csproj",
+      "projectPath": "D:\\Project\\Financial\\Financial\\Financial.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial\\obj\\",
+      "outputPath": "D:\\Project\\Financial\\Financial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6125,11 +6125,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj": {
-              "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Data\\Financial.Data.csproj"
+            "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj": {
+              "projectPath": "D:\\Project\\Financial\\Financial.Data\\Financial.Data.csproj"
             },
-            "E:\\Project\\Financial\\FinancialCrawler\\Financial.Lib\\Financial.Lib.csproj": {
-              "projectPath": "E:\\Project\\Financial\\FinancialCrawler\\Financial.Lib\\Financial.Lib.csproj"
+            "D:\\Project\\Financial\\Financial.Lib\\Financial.Lib.csproj": {
+              "projectPath": "D:\\Project\\Financial\\Financial.Lib\\Financial.Lib.csproj"
             }
           }
         }

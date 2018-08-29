@@ -71,6 +71,17 @@ namespace Financial.API
 
              };
          });
+            services.AddCors(options =>
+            {
+                // CorsPolicy 是自訂的 Policy 名稱
+                options.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyHeader()
+                          .WithMethods("GET")
+                          .AllowCredentials();
+                });
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
         public void ConfigureContainer(IUnityContainer container)
@@ -96,6 +107,7 @@ namespace Financial.API
             }
             app.UseAuthentication();
             app.UseHttpsRedirection();
+            app.UseCors("CorsPolicy");
             app.UseMvc();
         }
     }

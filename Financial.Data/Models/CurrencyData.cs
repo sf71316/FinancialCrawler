@@ -55,7 +55,7 @@ namespace Financial.Data.Models
                    select new ExchangeRateModel
                    {
                        ExchangeRate=p.Value,
-                       ExchangeTime=p.UpdateDate
+                       ExchangeTime=p.UpdateDate.ToString("yyyy/MM/dd HH:00:00")
                    };
         }
 

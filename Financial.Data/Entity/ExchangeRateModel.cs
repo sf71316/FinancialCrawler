@@ -6,7 +6,7 @@ namespace Financial.Data.Entity
 {
     public class ExchangeRateModel
     {
-        public DateTime ExchangeTime { get; set; }
+        public string ExchangeTime { get; set; }
         public decimal ExchangeRate { get; set; }
     }
 }

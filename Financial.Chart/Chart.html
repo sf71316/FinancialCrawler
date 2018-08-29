@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="container" style="height: 400px; min-width: 310px"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+<script>
+    //https://www.highcharts.com/samples/data/aapl-c.json
+    $.getJSON('http://localhost:16180/api/Currency?tc=usd', function (data) {
+        // Create the chart
+
+        var _source = data.map(function (x) {
+            var date = new Date(x.exchangeTime);
+            var now_utc = Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(),
+                date.getUTCHours(), 0, 0);
+            var arr = new Array(now_utc, x.exchangeRate);
+            return arr;
+        });
+        Promise.all(_source);
+        Highcharts.stockChart('container', {
+            xAxis: {
+                type: 'datetime'
+            },
+            rangeSelector: {
+                selected: 1
+            },
+
+            title: {
+                text: 'USD To NTD  Exchange Rate'
+            },
+
+            series: [{
+                name: 'USD',
+                data: _source,
+                tooltip: {
+                    valueDecimals: 2
+                }
+            }]
+        });
+    });
+</script>
+
+</html>

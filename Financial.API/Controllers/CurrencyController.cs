@@ -14,7 +14,6 @@ namespace Financial.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class CurrencyController : ControllerBase
     {
         IUnityContainer _container;
@@ -26,7 +25,7 @@ namespace Financial.API.Controllers
         public ActionResult<IEnumerable<ExchangeRateModel>> Get(string tc, string sc = "TWD")
         {
             var data = _container.Resolve<ICurrencyData>();
-            return data.GetExchangeRates(sc, tc).ToList();
+            return data.GetExchangeRates(sc, tc).OrderBy(p=>p.ExchangeTime).ToList();
         }
     }
 }
