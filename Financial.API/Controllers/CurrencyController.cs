@@ -16,16 +16,25 @@ namespace Financial.API.Controllers
     [ApiController]
     public class CurrencyController : ControllerBase
     {
-        IUnityContainer _container;
+        IUnityContainer _Container;
         public CurrencyController(IUnityContainer container)
         {
-            _container = container;
+            _Container = container;
         }
         [HttpGet]
         public ActionResult<IEnumerable<ExchangeRateModel>> Get(string tc, string sc = "TWD")
         {
-            var data = _container.Resolve<ICurrencyData>();
+            var data = _Container.Resolve<ICurrencyData>();
             return data.GetExchangeRates(sc, tc).OrderBy(p=>p.ExchangeTime).ToList();
+        }
+        [HttpGet("GetByDay")]
+        public ActionResult<IEnumerable<ExchangeRateModel>> GetByDate(string tc, string sc = "TWD")
+        {
+            var data = _Container.Resolve<ICurrencyData>();
+            return data.GetExchangeRates(sc, tc)
+                .GroupBy(g=>g.ExchangeTime.Date)
+                .Select(p=>new ExchangeRateModel {ExchangeRate=p.Average(x=>x.ExchangeRate),ExchangeTime=p.Key })
+                .OrderBy(p => p.ExchangeTime).ToList();
         }
     }
 }
